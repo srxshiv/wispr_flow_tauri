@@ -9,6 +9,7 @@ export default function App() {
   const socketRef = useRef<ListenLiveClient | null>(null);
 
   const handleStartRecording = ()=>{
+    console.log("clicked start Recording")
     const deepgram = createClient(import.meta.env.VITE_DEEPGRAM_KEY)
 
     const connection = deepgram.listen.live({
