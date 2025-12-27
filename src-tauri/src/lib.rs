@@ -1,5 +1,5 @@
 use enigo::{Enigo, Keyboard, Settings};
-use tauri::{Manager, Emitter}; // <--- Add Emitter
+use tauri::{Manager, Emitter}; 
 use tauri_plugin_global_shortcut::{Code, Modifiers, ShortcutState};
 
 #[tauri::command]

@@ -68,7 +68,7 @@ export default function App() {
         }
         lastToggleRef.current = now;
 
-        console.log("Shortcut! isRecordingRef:", isRecordingRef.current);
+        console.log("is Recording : ", isRecordingRef.current);
 
         if (isRecordingRef.current) {
           handleStop();

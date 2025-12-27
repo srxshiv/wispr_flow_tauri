@@ -18,7 +18,7 @@ export default function useAudioRecorder () {
                 }
             })
 
-            mediaRecorder.current.start(250);
+            mediaRecorder.current.start(150);
             setIsRecording(true);
         }
         catch(e){
