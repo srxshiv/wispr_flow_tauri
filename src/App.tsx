@@ -24,7 +24,7 @@ export default function App() {
     
     setTranscript(""); 
     
-    const deepgram = createClient(import.meta.env.VITE_DEEPGRAM_KEY);
+    const deepgram = createClient("bedd78e04cee83170de2f56ed86cd47381f166cc");
     const connection = deepgram.listen.live({
       model: "nova-2",
       smart_format: true,
